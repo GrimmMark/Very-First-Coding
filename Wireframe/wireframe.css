@@ -1,0 +1,252 @@
+body {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  /* no border to the viewable frame */
+  padding: 0;
+  /* no padding to the viewable frame */
+  box-sizing: border-box;
+  min-width: 420px;
+}
+
+#home,
+#profile,
+#contact {
+  text-decoration: none;
+  font-size: 24px;
+  color: whitesmoke;
+  background-color: rgb(249, 174, 12);
+  width: 100px;
+  height: 50px;
+  margin: none;
+  padding: none;
+  border-color: transparent;
+}
+
+#button2 {
+  background-color: lightgrey;
+  border: 2px solid black;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  height: 40px;
+  width: 100;
+  margin-top: 40px;
+}
+
+#home:hover,
+#profile:hover,
+#contact:hover {
+  background-color: rgb(254, 194, 52);
+}
+
+#button2:hover {
+  background-color: rgb(255, 133, 128);
+  border: ipx solid black;
+}
+
+button {
+  margin: 0px;
+  border-color: transparent;
+}
+
+@media only screen and (max-width: 980px) {
+  .Main {
+    min-width: 200;
+    width: 100%;
+    background-image: url('pexels-bg.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: space-between;
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium';
+    padding-bottom: 50px;
+  }
+
+  .Nav {
+    background-color: rgb(249, 174, 12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 200;
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+    height: 140px;
+  }
+
+  .boxed {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    align-items: center;
+    justify-items: space-between;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .Main {
+    background-image: url('pexels-bg.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+    justify-items: space-between;
+    padding-bottom: 100px;
+
+  }
+
+  .Nav {
+    background-color: rgb(249, 174, 12);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 420;
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+    height: 80px;
+    align-items: space-between;
+  }
+
+  .boxed {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+  }
+}
+
+.header {
+  font-style: italic;
+  min-width: 420;
+}
+
+.navInput {
+  align-items: center;
+  font-style: calibri;
+  width: 100%;
+  color: whitesmoke;
+  background-color: rgb(249, 174, 12);
+  font-size: 32px;
+}
+
+.Home {
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: calibri;
+}
+
+.Profile {
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: calibri;
+}
+
+.Contact {
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: calibri;
+}
+
+.Box1 {
+  background-color: rgb(21, 138, 99);
+  margin: 10px;
+  align-items: center;
+  text-align: center;
+  font-family: calibri;
+  font-style: normal;
+  width: 250px;
+  height: 250px;
+}
+
+.Box2 {
+  width: 100%;
+  background-image: url('pexels-bg.jpg');
+  background-size: cover;
+  margin: 10px;
+  align-items: center;
+  text-align: center;
+  font-family: calibri;
+  font-style: normal;
+  width: 250px;
+  height: 250px;
+}
+
+.Box3 {
+  background-color: rgb(20, 192, 109);
+  margin: 10px;
+  align-items: center;
+  text-align: center;
+  font-family: calibri;
+  font-style: normal;
+  width: 250px;
+  height: 250px;
+}
+
+.footer {
+  min-width: 420;
+  width: 100%;
+  display: flex;
+  font-style: italic;
+  background-color: rgb(255, 113, 88);
+  padding-bottom: 100px;
+}
+
+#yname {
+  background-color: lightgrey;
+  border: 2px solid black;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  height: 40px;
+  width: 300;
+}
+
+.yname {
+  margin-top: 20px;
+  font-style: normal;
+
+}
+
+#ye-mail {
+  background-color: lightgrey;
+  border: 2px solid black;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  height: 40px;
+  width: 300;
+}
+
+.ye-mail {
+  margin-top: 20px;
+  font-style: normal;
+}
+
+.box5 {
+  padding-left: 20px;
+  padding-top: 20px;
+  text-decoration: underline;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  justify-content: space-evenly;
+}
